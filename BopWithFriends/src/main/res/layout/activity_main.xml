@@ -13,9 +13,9 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Join"
+            android:text="Play!"
             android:id="@+id/button_host"
-            android:onClick="joinGame"
+            android:onClick="hostGame"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:minHeight="100dip"
@@ -26,18 +26,18 @@
             android:textSize="45sp"
             />
 
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Host"
-            android:id="@+id/button_join"
-            android:layout_marginTop="13dp"
-            android:layout_below="@+id/button_host"
-            android:layout_alignLeft="@+id/button_host"
-            android:onClick="hostGame"
-            android:minHeight="100dip"
-            android:minWidth="400dip"
-            android:textColor="#fff"
-            android:background="#55444444"
-            android:textSize="45sp"/>
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Host"-->
+            <!--android:id="@+id/button_join"-->
+            <!--android:layout_marginTop="13dp"-->
+            <!--android:layout_below="@+id/button_host"-->
+            <!--android:layout_alignLeft="@+id/button_host"-->
+            <!--android:onClick="hostGame"-->
+            <!--android:minHeight="100dip"-->
+            <!--android:minWidth="400dip"-->
+            <!--android:textColor="#fff"-->
+            <!--android:background="#55444444"-->
+            <!--android:textSize="45sp"/>-->
 </RelativeLayout>

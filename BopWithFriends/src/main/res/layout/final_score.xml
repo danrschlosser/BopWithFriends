@@ -17,7 +17,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/final_score"
                 android:text="@string/hello_world"
-                android:textSize="50sp"
+                android:textSize="45sp"
                 android:textColor="#ee3333"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -32,8 +32,8 @@
                 android:layout_gravity="center_horizontal"
                 android:background="#55888888"
                 android:onClick="replay"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
+                android:padding="12sp"
+
                 />
 
         <Button
@@ -43,8 +43,9 @@
                 android:layout_marginTop="20sp"
                 android:text="@string/scoreboard"
                 android:layout_gravity="center_horizontal"
-                android:background="#01ffffff"
+                android:background="#55888888"
                 android:onClick="scoreboard"
+                android:padding="12sp"
                 />
 
     </LinearLayout>

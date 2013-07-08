@@ -18,12 +18,12 @@
             android:onClick="hostGame"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:minHeight="100dip"
-            android:minWidth="400dip"
+            android:minHeight="90dip"
+            android:minWidth="280dip"
             android:gravity="center"
             android:textColor="#fff"
             android:background="#55444444"
-            android:textSize="45sp"
+            android:textSize="32sp"
             />
 
     <!--<Button-->
